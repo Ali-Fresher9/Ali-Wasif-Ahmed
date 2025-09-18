@@ -1,0 +1,22 @@
+News Article Summarizer – README.txt
+====================================
+
+Description:
+------------
+This Python script fetches a news article from a URL, removes Bengali stopwords, and summarizes it using Gensim. It is useful for quickly understanding long Bengali news articles.
+
+Requirements:
+-------------
+- Python 3.8+
+- Packages: requests, beautifulsoup4, nltk, gensim
+
+Setup:
+------
+1. Install Python: https://www.python.org/downloads/
+2. Install packages:
+   pip install requests beautifulsoup4 nltk gensim
+3. Download NLTK resources:
+   ```python
+   import nltk
+   nltk.download('stopwords')
+   nltk.download('punkt')
