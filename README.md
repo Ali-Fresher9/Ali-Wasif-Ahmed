@@ -9,7 +9,7 @@ It scans the source folder every minute and moves files into:
 
    DEST_BASE_DIR / <YYYY-MM-DD> / <FileType> / filename.ext
 
-Example:
+Example: ( You can use the given example folder for testing)
    Example/
       Organized/
          2025-09-18/
@@ -41,7 +41,7 @@ Example:
    SOURCE_DIR = "C:/Users/USERAS/Downloads/Example"
    DEST_BASE_DIR = "C:/Users/USERAS/Downloads/Example/Organized"
 
-   - SOURCE_DIR: folder where your unorganized files are stored
+   - SOURCE_DIR: folder where your unorganized files are stored.
    - DEST_BASE_DIR: root folder where organized files will be created
 
    IMPORTANT: 
